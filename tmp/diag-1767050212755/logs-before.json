@@ -1,0 +1,34 @@
+[
+  {
+    "type": "console:debug",
+    "text": "[vite] connecting..."
+  },
+  {
+    "type": "console:info",
+    "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"
+  },
+  {
+    "type": "console:warning",
+    "text": "[2025-12-29T23:16:53.552Z]  @firebase/firestore: Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead."
+  },
+  {
+    "type": "console:log",
+    "text": "Checking for duplicates..."
+  },
+  {
+    "type": "console:log",
+    "text": "Starting Aggressive Deduplication..."
+  },
+  {
+    "type": "console:log",
+    "text": "Checking for duplicates..."
+  },
+  {
+    "type": "console:log",
+    "text": "Starting Aggressive Deduplication..."
+  },
+  {
+    "type": "console:debug",
+    "text": "[vite] connected."
+  }
+]

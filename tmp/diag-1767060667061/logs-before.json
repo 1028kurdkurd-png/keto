@@ -1,0 +1,46 @@
+[
+  {
+    "type": "console:debug",
+    "text": "[vite] connecting..."
+  },
+  {
+    "type": "console:info",
+    "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"
+  },
+  {
+    "type": "console:warning",
+    "text": "[2025-12-30T02:11:10.422Z]  @firebase/firestore: Firestore (12.6.0): enableIndexedDbPersistence() will be deprecated in the future, you can use `FirestoreSettings.cache` instead."
+  },
+  {
+    "type": "console:info",
+    "text": "Auto-fix: check - visible: true alreadyFixed: false force: "
+  },
+  {
+    "type": "console:info",
+    "text": "Service worker registration skipped in non-production builds. Enable with VITE_ENABLE_SW=true"
+  },
+  {
+    "type": "console:info",
+    "text": "If the page is blank in your browser, you can force remediation from the console with: __runAutoFix(true) or visit the page with ?force_sw_fix=1"
+  },
+  {
+    "type": "console:log",
+    "text": "Checking for duplicates..."
+  },
+  {
+    "type": "console:log",
+    "text": "Starting Aggressive Deduplication..."
+  },
+  {
+    "type": "console:log",
+    "text": "Checking for duplicates..."
+  },
+  {
+    "type": "console:log",
+    "text": "Starting Aggressive Deduplication..."
+  },
+  {
+    "type": "console:debug",
+    "text": "[vite] connected."
+  }
+]
