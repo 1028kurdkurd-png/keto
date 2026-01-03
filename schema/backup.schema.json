@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ExportPackage",
+  "type": "object",
+  "required": ["meta", "items", "categories", "sections", "profiles", "roles"],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": ["version", "createdAt"],
+      "properties": {
+        "version": { "type": "string" },
+        "createdAt": { "type": "number" },
+        "checksum": { "type": "string" },
+        "fileName": { "type": "string" }
+      }
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "categoryId", "price", "translations"],
+        "properties": {
+          "id": { "type": "number" },
+          "categoryId": { "type": "string" },
+          "price": { "type": "number" },
+          "image": { "type": "string" },
+          "order": { "type": "number" },
+          "translations": { "type": "object" }
+        }
+      }
+    },
+    "categories": {
+      "type": "array",
+      "items": { "type": "object", "required": ["id", "sectionId", "translations"], "properties": { "id": {"type":"string"}, "sectionId": {"type":"string"}, "translations": {"type":"object"} } }
+    },
+    "sections": { "type": "array", "items": { "type": "object", "required": ["id", "translations"], "properties": { "id": {"type":"string"}, "translations": {"type":"object"} } } },
+    "profiles": { "type": "array", "items": { "type": "object", "required": ["id", "name"], "properties": { "id": {"type":"string"}, "name": {"type":"string"}, "role": {"type":"string"}, "image": {"type":"string"} } } },
+    "roles": { "type": "array", "items": { "type": "object", "required": ["id"], "properties": { "id": {"type":"string"}, "name": {"type":"string"}, "translations": {"type":"object"} } } }
+  }
+}
